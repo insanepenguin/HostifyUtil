@@ -4,3 +4,5 @@
 /psSSHscript.ps1
 /UnifiFixScript
 /unifisetinformscript.ps1
+ip_list.txt
+ipsscrape.txt

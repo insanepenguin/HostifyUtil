@@ -11,6 +11,6 @@ Remove-Item ".\python-3.12.10-amd64.exe"
 Write-Host "Python installer removed."
 
 # install paramiko libary for the script
-python -m pip install paramiko
+Start-Process -Wait -FilePath "cmd.exe" -ArgumentList "/c python -m pip install paramiko"
 Write-Host "Paramiko library installed successfully."
 Read-Host "Press Enter to exit"

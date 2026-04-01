@@ -6,7 +6,7 @@
 import time
 import paramiko
 port = 22
-cmd = f"/usr/bin/mca-cli-op set-inform http://{IP or FQDN of controller}:8080/inform"
+cmd = f"/usr/bin/mca-cli-op set-inform http://207.148.11.157/:8080/inform"
 
 input("This script will set the inform URL for all UniFi devices in the list. Press Enter to continue...")
 
